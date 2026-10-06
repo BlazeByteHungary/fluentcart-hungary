@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<szamla xmlns="http://www.szamlazz.hu/szamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/szamla szamla.xsd ">
+  <szallito>
+    <id>201</id>
+    <nev>Test Seller Kft.</nev>
+  </szallito>
+  <alap>
+    <id>529992</id>
+    <szamlaszam>FCH-2026-000123</szamlaszam>
+    <tipus>S</tipus>
+    <kelt>2026-01-20</kelt>
+    <devizanem>HUF</devizanem>
+  </alap>
+  <osszegek>
+    <totalnetto>30000</totalnetto>
+    <totalbrutto>38100</totalbrutto>
+  </osszegek>
+</szamla>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- packetInfo success, PACKETA_DOKS.md #packetInfo example output. -->
+<response>
+  <status>ok</status>
+  <result>
+    <branchId>999</branchId>
+    <invoicedWeightGrams>570</invoicedWeightGrams>
+    <courierInfo>
+      <courierInfoItem>
+        <courierId>999</courierId>
+        <courierName>Example courier</courierName>
+        <courierNumbers>
+          <courierNumber>12345678</courierNumber>
+        </courierNumbers>
+        <courierBarcodes>
+          <courierBarcode>987654321</courierBarcode>
+        </courierBarcodes>
+        <courierTrackingNumbers>
+          <courierTrackingNumber>ABC1234567890</courierTrackingNumber>
+        </courierTrackingNumbers>
+      </courierInfoItem>
+    </courierInfo>
+    <services/>
+    <number>992002</number>
+    <consignPassword>123456789</consignPassword>
+  </result>
+</response>

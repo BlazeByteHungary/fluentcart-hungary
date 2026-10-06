@@ -1,0 +1,230 @@
+/* FluentCart Hungary — admin workspace (scoped to .fch-hu, loaded only on our screens). */
+
+.fch-hu {
+    max-width: 1180px;
+}
+
+.fch-hu-title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.fch-hu-version {
+    font-size: 12px;
+    color: #646970;
+    font-weight: normal;
+}
+
+.fch-hu-tabs {
+    margin-bottom: 16px;
+}
+
+.fch-hu-body {
+    display: block;
+}
+
+.fch-hu-grid {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.fch-hu-grid-2 {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+}
+
+@media screen and (max-width: 960px) {
+    .fch-hu-grid-2 {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+.fch-hu-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+
+.fch-hu-card h2 {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.fch-hu-card h3 {
+    margin: 18px 0 6px;
+    font-size: 14px;
+}
+
+.fch-hu-kv {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fch-hu-kv th {
+    text-align: left;
+    padding: 6px 12px 6px 0;
+    width: 42%;
+    color: #50575e;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.fch-hu-kv td {
+    padding: 6px 0;
+    vertical-align: top;
+}
+
+.fch-hu-table td,
+.fch-hu-table th {
+    vertical-align: middle;
+}
+
+.fch-hu-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 12px;
+}
+
+.fch-hu-badge {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+.fch-hu-badge-ok {
+    background: #edfaef;
+    color: #0a5c2b;
+    border: 1px solid #9fd8b1;
+}
+
+.fch-hu-badge-warn {
+    background: #fef8e7;
+    color: #7a4d00;
+    border: 1px solid #f0c33c;
+}
+
+.fch-hu-badge-error {
+    background: #fdeaea;
+    color: #8a1f1f;
+    border: 1px solid #e8a0a0;
+}
+
+.fch-hu-badge-muted {
+    background: #f0f0f1;
+    color: #50575e;
+    border: 1px solid #c3c4c7;
+}
+
+.fch-hu-provider {
+    border-top: 1px solid #dcdcde;
+    margin-top: 16px;
+    padding-top: 8px;
+}
+
+.fch-hu-provider:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.fch-hu-secret {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: #50575e;
+}
+
+.fch-hu-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fch-hu-bulk {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+}
+
+.fch-hu-bulk select {
+    min-width: 220px;
+}
+
+.fch-hu-notice {
+    margin: 8px 0 12px;
+}
+
+.fch-hu-orders-search {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8px 0 16px;
+}
+
+.fch-hu-panels {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.fch-hu-panel {
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    padding: 12px 14px;
+    background: #fff;
+}
+
+.fch-hu-panel h3 {
+    margin-top: 0;
+}
+
+.fch-hu-panel .fch-hu-actions {
+    margin-top: 8px;
+}
+
+.fch-hu-empty {
+    color: #646970;
+    font-style: italic;
+}
+
+/* Narrow screens: wide admin tables scroll inside their card instead of overflowing the page. */
+@media screen and (max-width: 782px) {
+    .fch-hu-panel,
+    .fch-hu-card {
+        overflow-x: auto;
+    }
+}
+
+.fch-hu-error {
+    color: #8a1f1f;
+}
+
+.fch-hu-kv small {
+    color: #646970;
+}
+
+.fch-hu-details summary {
+    cursor: pointer;
+    color: #2271b1;
+}
+
+.fch-hu-raw {
+    max-height: 220px;
+    overflow: auto;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    padding: 8px;
+    font-size: 11px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}

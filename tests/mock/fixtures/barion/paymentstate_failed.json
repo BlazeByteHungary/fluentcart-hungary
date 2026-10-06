@@ -1,0 +1,27 @@
+{
+  "PaymentId": "0123456789abcdef0123456789abcdef",
+  "PaymentRequestId": "fch-990001-1-test",
+  "Status": "Canceled",
+  "PaymentType": "Immediate",
+  "Total": 0,
+  "Currency": "HUF",
+  "FundingSource": "BankCard",
+  "PaymentMethod": "BankCard",
+  "RecurrenceType": "None",
+  "TraceId": "trace-failed-0001",
+  "ValidUntil": "2026-10-05T18:00:00Z",
+  "ReservedUntil": null,
+  "DelayedCaptureUntil": null,
+  "Transactions": [
+    {
+      "TransactionId": "33333333333333333333333333333333",
+      "POSTransactionId": "fch-990001-1-test",
+      "TransactionType": "CardPayment",
+      "CardHolderName": null,
+      "Total": 0,
+      "Currency": "HUF",
+      "Status": "Canceled"
+    }
+  ],
+  "Errors": []
+}

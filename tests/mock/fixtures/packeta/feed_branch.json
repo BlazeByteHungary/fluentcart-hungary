@@ -1,0 +1,45 @@
+[
+  {
+    "id": "13789",
+    "name": "Budapest, Deák tér (ZÁSILKOVNA)",
+    "special": "bejárat a tér felől",
+    "place": "ZÁSILKOVNA",
+    "street": "Deák Ferenc tér 4",
+    "city": "Budapest",
+    "zip": "1052",
+    "country": "hu",
+    "currency": "HUF",
+    "status": {
+      "statusId": "1",
+      "description": "In operation"
+    },
+    "displayFrontend": "1",
+    "wheelchairAccessible": "yes",
+    "creditCardPayment": "yes",
+    "dressingRoom": "0",
+    "claimAssistant": "1",
+    "packetConsignment": "1",
+    "latitude": "47.49780",
+    "longitude": "19.05460",
+    "url": "https://www.zasilkovna.cz/pobocky/budapest-deak-ter",
+    "maxWeight": "15",
+    "labelRouting": "C10-252-13789",
+    "labelName": "Budapest, Deák tér (ZÁSILKOVNA)",
+    "photos": [],
+    "openingHours": {
+      "regular": {
+        "monday": "09:00-21:00",
+        "tuesday": "09:00-21:00",
+        "wednesday": "09:00-21:00",
+        "thursday": "09:00-21:00",
+        "friday": "09:00-21:00",
+        "saturday": "10:00-21:00",
+        "sunday": "10:00-21:00"
+      },
+      "exceptions": []
+    },
+    "extendedDelivery": {
+      "saturday": "true"
+    }
+  }
+]

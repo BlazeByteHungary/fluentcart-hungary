@@ -1,0 +1,34 @@
+{
+  "IsChanged": true,
+  "LastUpdateTime": "2026-10-05T06:00:00",
+  "Data": [
+    {
+      "Id": "PSD-1051-A",
+      "Matchcode": "Budapest Fo ter",
+      "Address": "Fo ter 1.",
+      "City": "Budapest",
+      "ZipCode": "1051",
+      "Latitude": 47.4979,
+      "Longitude": 19.0402,
+      "LegacyId": "1051A",
+      "DeliveryPointType": 1,
+      "IsActive": true,
+      "VacationFrom": null,
+      "VacationTill": null
+    },
+    {
+      "Id": "PSD-1051-B",
+      "Matchcode": "Budapest Bazilika box",
+      "Address": "Szent Istvan ter 1.",
+      "City": "Budapest",
+      "ZipCode": "1051",
+      "Latitude": 47.5008,
+      "Longitude": 19.0539,
+      "LegacyId": "1051B",
+      "DeliveryPointType": 2,
+      "IsActive": true,
+      "VacationFrom": null,
+      "VacationTill": null
+    }
+  ]
+}

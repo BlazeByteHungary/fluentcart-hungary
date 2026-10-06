@@ -1,0 +1,5 @@
+{
+  "create.shipmentRequest.shipments[0].sender.identity": "Sender identity is required",
+  "create.shipmentRequest.shipments[0].receiver.address.zipCode": "Invalid zip code",
+  "create.shipmentRequest.shipments[0].parcels[0].weight": "Weight is mandatory"
+}

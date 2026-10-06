@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "parcels": [
+    {
+      "clFoxId": "CLFOX0000000001",
+      "barcode": "CLFOX0000000001",
+      "sendCode": "SEND-0001",
+      "uniqueBarcode": "FCH992001",
+      "destination": "hu35",
+      "parcelType": "NORMAL",
+      "sendType": "APM",
+      "partnerType": "B2C"
+    }
+  ]
+}

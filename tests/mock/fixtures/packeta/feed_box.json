@@ -1,0 +1,47 @@
+[
+  {
+    "id": "18579",
+    "type": "zbox",
+    "name": "Z-BOX Budapest, Váci út 1",
+    "place": "Z-BOX",
+    "street": "Váci út 1",
+    "city": "Budapest",
+    "zip": "1062",
+    "country": "hu",
+    "currency": "HUF",
+    "status": {
+      "statusId": "1",
+      "description": "In operation"
+    },
+    "codAllowed": "1",
+    "displayFrontend": "1",
+    "wheelchairAccessible": "no",
+    "creditCardPayment": "yes",
+    "dressingRoom": "0",
+    "claimAssistant": "0",
+    "packetConsignment": "1",
+    "latitude": "47.51360",
+    "longitude": "19.05920",
+    "url": "https://www.zasilkovna.cz/pobocky/z-box-budapest-vaci-ut-1",
+    "maxWeight": "15",
+    "hasKeypad": "1",
+    "labelRouting": "C10-617-18579",
+    "labelName": "Z-BOX Budapest, Váci út 1",
+    "photos": [],
+    "openingHours": {
+      "regular": {
+        "monday": "00:00-23:59",
+        "tuesday": "00:00-23:59",
+        "wednesday": "00:00-23:59",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-23:59",
+        "saturday": "00:00-23:59",
+        "sunday": "00:00-23:59"
+      },
+      "exceptions": []
+    },
+    "extendedDelivery": {
+      "saturday": "true"
+    }
+  }
+]

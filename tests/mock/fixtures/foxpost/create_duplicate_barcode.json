@@ -1,0 +1,14 @@
+{
+  "valid": false,
+  "parcels": [
+    {
+      "uniqueBarcode": "FCH992001",
+      "errors": [
+        {
+          "field": "uniqueBarcode",
+          "message": "DUPLICATED_UNIQUE_BARCODE"
+        }
+      ]
+    }
+  ]
+}

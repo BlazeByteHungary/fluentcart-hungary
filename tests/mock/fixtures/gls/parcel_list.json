@@ -1,0 +1,10 @@
+{
+  "PrintDataInfoList": [
+    {
+      "ParcelId": 123456789,
+      "ParcelNumber": "1234567890",
+      "ParcelNumberWithCheckdigit": "12345678901",
+      "ClientReference": "FCH-992002"
+    }
+  ]
+}

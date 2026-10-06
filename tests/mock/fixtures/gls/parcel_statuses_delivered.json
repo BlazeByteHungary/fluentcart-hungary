@@ -1,0 +1,24 @@
+{
+  "ClientReference": "FCH-992001",
+  "DeliveryCountryCode": "HU",
+  "DeliveryZipCode": "1051",
+  "ParcelStatusList": [
+    {
+      "DepotCity": "Budapest",
+      "DepotNumber": "1",
+      "StatusCode": "1",
+      "StatusDate": "2026-10-05T08:00:00",
+      "StatusDescription": "handed to GLS",
+      "StatusInfo": ""
+    },
+    {
+      "DepotCity": "Budapest",
+      "DepotNumber": "2",
+      "StatusCode": "5",
+      "StatusDate": "2026-10-05T10:00:00",
+      "StatusDescription": "delivered",
+      "StatusInfo": ""
+    }
+  ],
+  "Weight": 2.0
+}

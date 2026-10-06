@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- packetLabelPdf success: base64 PDF body (PACKETA_DOKS.md #packetLabelPdf example). -->
+<response>
+  <status>ok</status>
+  <result>JVBERi0xLjcKJSBzeW50aGV0aWMgUGFja2V0YSBsYWJlbAolJUVPRgo=</result>
+</response>

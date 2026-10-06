@@ -1,0 +1,17 @@
+{
+  "valid": false,
+  "parcels": [
+    {
+      "errors": [
+        {
+          "field": "cod",
+          "message": "INVALID_COD"
+        },
+        {
+          "field": "recipientZip",
+          "message": "INVALID_ZIP"
+        }
+      ]
+    }
+  ]
+}

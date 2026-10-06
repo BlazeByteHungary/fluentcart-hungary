@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- packetStatus delivered, PACKETA_DOKS.md #packetStatus example. -->
+<response>
+  <status>ok</status>
+  <result>
+    <dateTime>2022-01-10T15:34:06</dateTime>
+    <statusCode>7</statusCode>
+    <codeText>delivered</codeText>
+    <statusText>Zásilka byla vydána.</statusText>
+    <branchId>18579</branchId>
+    <destinationBranchId>0</destinationBranchId>
+    <externalTrackingCode></externalTrackingCode>
+    <isReturning></isReturning>
+    <storedUntil></storedUntil>
+    <carrierId>18579</carrierId>
+    <carrierName>CZ Packeta Z-Point PP</carrierName>
+  </result>
+</response>

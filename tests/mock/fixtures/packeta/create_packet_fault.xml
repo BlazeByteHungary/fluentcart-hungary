@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definitive business refusal: PacketAttributesFault (04_PACKETA_CONTRACT.md §4 errors). -->
+<response>
+  <status>fault</status>
+  <fault>PacketAttributesFault</fault>
+</response>

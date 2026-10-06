@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- createPacket success response, PACKETA_DOKS.md #Packeta PUDOs / #REST/XML (id/barcode/barcodeText). -->
+<response>
+  <status>ok</status>
+  <result>
+    <id>4154090000</id>
+    <barcode>Z4154090000</barcode>
+    <barcodeText>Z 415 4090 000</barcodeText>
+  </result>
+</response>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlszamlavalasz xmlns="http://www.szamlazz.hu/xmlszamlavalasz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sikeres>false</sikeres>
+  <hibakod>202</hibakod>
+  <hibauzenet><![CDATA[A megadott számlaszám előtag nem megfelelő.]]></hibauzenet>
+</xmlszamlavalasz>

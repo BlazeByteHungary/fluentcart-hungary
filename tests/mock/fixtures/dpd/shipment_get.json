@@ -1,0 +1,13 @@
+{
+  "shipment": {
+    "shipmentId": 555000111,
+    "status": 2,
+    "reference1": "fch:990001:dpd:label_create:1",
+    "parcels": [
+      {
+        "parcelNumber": "12345678901234",
+        "parcelRank": 1
+      }
+    ]
+  }
+}

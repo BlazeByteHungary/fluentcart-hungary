@@ -1,0 +1,9 @@
+{
+  "cities": [
+    {
+      "city": "Budapest",
+      "zipCode": "1051",
+      "countryCode": "HU"
+    }
+  ]
+}

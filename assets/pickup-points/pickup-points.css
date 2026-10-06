@@ -1,0 +1,161 @@
+/* FluentCart Hungary — pickup-point selector (UX §4.1: mobile-first sheet, 44px targets, AA contrast). */
+
+.fch-pickup { margin: 12px 0; }
+.fch-pickup__field { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.fch-pickup__trigger,
+.fch-pickup__choose,
+.fch-pickup__retry,
+.fch-pickup__close,
+.fch-pickup__fallback {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #136196;
+    background: #136196;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.fch-pickup__retry,
+.fch-pickup__close,
+.fch-pickup__fallback { background: #fff; color: #136196; }
+.fch-pickup__close { margin-left: auto; }
+.fch-pickup__status { color: #1e293b; font-size: 14px; }
+
+.fch-pickup__modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgba(15, 23, 42, .55);
+}
+
+/* The modal is toggled via the `hidden` attribute; an author `display` would otherwise override the
+   UA `[hidden] { display:none }` rule and leave an invisible fixed overlay blocking the checkout. */
+.fch-pickup__modal[hidden] {
+    display: none !important;
+}
+.fch-pickup__sheet {
+    width: 100%;
+    max-width: 560px;
+    max-height: 88vh;
+    overflow: auto;
+    background: #fff;
+    border-radius: 16px 16px 0 0;
+    padding: 16px;
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, .25);
+}
+.fch-pickup__title { margin: 0 0 12px; font-size: 18px; color: #0f172a; }
+.fch-pickup__search { position: sticky; top: 0; background: #fff; padding-bottom: 8px; }
+.fch-pickup__search input[type="search"] {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #94a3b8;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.fch-pickup__state[data-state="error"] { color: #b91c1c; }
+.fch-pickup__state[data-state="empty"] { color: #334155; }
+
+/* Server-side (or native FluentCart) validation error for the pickup field: FluentCart writes the
+   message into this element and adds `.show_error`; we keep it hidden while empty. */
+.fch-pickup__error {
+    display: block;
+    margin-top: 6px;
+    color: #b91c1c;
+    font-size: 14px;
+}
+.fch-pickup__error:empty { display: none; }
+.fch-pickup.has-error .fch-pickup__field,
+.fch-pickup .fch-pickup__field.has-error { outline: 2px solid #fca5a5; outline-offset: 2px; border-radius: 8px; }
+.fch-pickup__trigger[aria-invalid="true"] { border-color: #b91c1c; }
+.fch-pickup__skeleton {
+    display: block;
+    height: 56px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 37%, #e2e8f0 63%);
+    background-size: 400% 100%;
+    animation: fch-skeleton 1.2s ease infinite;
+}
+@keyframes fch-skeleton { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+
+.fch-pickup__list { list-style: none; margin: 8px 0 0; padding: 0; }
+.fch-pickup__item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4px 12px;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    min-height: 44px;
+}
+.fch-pickup__item.is-active { border-color: #136196; background: #eff6ff; }
+.fch-pickup__item.is-current { border-color: #15803d; background: #f0fdf4; }
+.fch-pickup__item.is-current .fch-pickup__name::after { content: ' ✓'; color: #15803d; }
+.fch-pickup__name { grid-column: 1; grid-row: 1; font-weight: 600; color: #0f172a; overflow-wrap: anywhere; }
+.fch-pickup__badge {
+    grid-column: 1; grid-row: 2; width: max-content; max-width: 100%;
+    padding: 2px 8px; border-radius: 999px; background: #eef2f7; color: #334155;
+    font-size: 12px; line-height: 1.5;
+}
+.fch-pickup__badge[data-kind="locker"] { background: #e0f2fe; color: #075985; }
+.fch-pickup__badge[data-kind="point"] { background: #ecfdf5; color: #166534; }
+.fch-pickup__meta { grid-column: 1; grid-row: 3; color: #475569; font-size: 13px; overflow-wrap: anywhere; }
+.fch-pickup__addr { grid-column: 1; grid-row: 4; color: #334155; font-size: 14px; overflow-wrap: anywhere; }
+.fch-pickup__choose { grid-column: 2; grid-row: 1 / span 4; align-self: center; min-height: 46px; }
+/* Raise specificity above theme/FC button rules so the 44-46px touch target really applies. */
+.fch-pickup__item .fch-pickup__choose { min-height: 46px; }
+.fch-pickup__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+.fch-pickup__filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin: 8px 0 4px; }
+.fch-pickup__filter { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: #475569; min-width: 0; flex: 1 1 140px; }
+.fch-pickup__filter select { min-height: 38px; border: 1px solid #cbd5e1; border-radius: 8px; padding: 4px 8px; background: #fff; max-width: 100%; }
+.fch-pickup__clearfilters { min-height: 38px; align-self: end; }
+.fch-pickup__stale { color: #b45309; }
+.fch-pickup__more { margin-top: 4px; }
+.fch-pickup__loadmore { width: 100%; min-height: 44px; }
+
+/* Home/method grouping inside the native FluentCart shipping-method list (cosmetic only). */
+.fch-pickup__group {
+    display: block; margin: 10px 0 4px; padding: 2px 0;
+    font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #475569;
+}
+.fch-pickup__methodbadge {
+    display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 999px;
+    background: #eef2f7; color: #334155; font-size: 11px; font-weight: 600; vertical-align: middle;
+}
+.fch-pickup__methodbadge[data-kind="home"] { background: #fef3c7; color: #92400e; }
+.fch-pickup__methodbadge[data-kind="pickup"] { background: #ecfdf5; color: #166534; }
+.fch-pickup__methodbadge[data-kind="locker"] { background: #e0f2fe; color: #075985; }
+.fch-pickup__methodbadge[data-kind="none"] { background: #f1f5f9; color: #64748b; }
+
+@media (min-width: 640px) {
+    .fch-pickup__modal { align-items: center; }
+    .fch-pickup__sheet { border-radius: 16px; }
+}
+
+/* Offer chooser (several applicable native methods for one point; server-computed prices). */
+.fch-pickup__offertitle { margin: 4px 0 8px; font-weight: 600; color: #0f172a; }
+.fch-pickup__offerlist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.fch-pickup__offer {
+    width: 100%; min-height: 46px; display: flex; justify-content: space-between; gap: 10px; align-items: center;
+    padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: #fff; cursor: pointer; text-align: left;
+}
+.fch-pickup__offer:hover { border-color: #0f172a; }
+.fch-pickup__offername { font-weight: 600; color: #0f172a; overflow-wrap: anywhere; }
+.fch-pickup__offerprice { white-space: nowrap; color: #0f172a; }
+.fch-pickup__offerunknown { color: #64748b; font-size: 12px; }
+.fch-pickup__back { min-height: 44px; }
+
+/* Official widget drivers (lazy-loaded; the shared resolve/save path stays authoritative). */
+.fch-pickup__widget { min-height: 44px; }
+.fch-pickup__widgethost { margin: 8px 0; }
+.fch-pickup__widgetframe { width: 100%; height: 480px; border: 1px solid #cbd5e1; border-radius: 10px; background: #fff; }
+.fch-pickup__widgetloading { color: #475569; }
+.fch-pickup__widgetclose { min-height: 44px; margin-top: 6px; }

@@ -1,0 +1,12 @@
+{
+  "Labels": "",
+  "PrintLabelsInfoList": [],
+  "PrintLabelsErrorList": [
+    {
+      "ErrorCode": 8,
+      "ErrorDescription": "COD amount >= 0",
+      "ClientReferenceList": ["FCH-992001"],
+      "ParcelIdList": []
+    }
+  ]
+}

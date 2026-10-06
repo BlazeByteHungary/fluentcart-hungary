@@ -1,0 +1,24 @@
+{
+  "carriers": [
+    {
+      "id": 32970,
+      "name": "HU FoxPost Box",
+      "points": [
+        {
+          "code": "FOX-HU-0001",
+          "coordinates": {
+            "latitude": "47.50000",
+            "longitude": "19.05000"
+          },
+          "street": "Kossuth Lajos utca",
+          "streetNumber": "12",
+          "city": "Budapest",
+          "zip": "1053",
+          "country": "HU",
+          "payment": "Card only",
+          "displayFrontend": 1
+        }
+      ]
+    }
+  ]
+}

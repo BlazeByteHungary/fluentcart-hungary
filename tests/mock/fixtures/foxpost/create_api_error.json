@@ -1,0 +1,5 @@
+{
+  "timestamp": "2026-10-05T20:00:00.000Z",
+  "error": "WRONG_USERNAME_OR_PASSWORD",
+  "status": 401
+}

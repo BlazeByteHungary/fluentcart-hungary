@@ -1,0 +1,13 @@
+{
+  "Labels": "JVBERi0xLjQKJSBzeW50aGV0aWMgR0xTIGxhYmVsCiUlRU9GCg==",
+  "PrintLabelsInfoList": [
+    {
+      "ParcelId": 123456789,
+      "ParcelNumber": "1234567890",
+      "ParcelNumberWithCheckdigit": "12345678901",
+      "ClientReference": "FCH-992001",
+      "PIN": "4821"
+    }
+  ],
+  "PrintLabelsErrorList": []
+}

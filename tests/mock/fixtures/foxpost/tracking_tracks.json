@@ -1,0 +1,18 @@
+[
+  {
+    "barcode": "CLFOX0000000001",
+    "createdAt": "2026-10-04T10:00:00.000Z",
+    "statuses": [
+      {
+        "trackId": 1,
+        "status": "CREATE",
+        "statusDate": "2026-10-04T10:00:00.000Z"
+      },
+      {
+        "trackId": 2,
+        "status": "OPERIN",
+        "statusDate": "2026-10-05T06:54:31.472Z"
+      }
+    ]
+  }
+]

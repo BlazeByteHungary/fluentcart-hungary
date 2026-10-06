@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlszamlavalasz xmlns="http://www.szamlazz.hu/xmlszamlavalasz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sikeres>false</sikeres>
+  <hibakod>491</hibakod>
+  <hibauzenet><![CDATA[A számlakibocsátó fiók beállított adóneme az új kata adónem, emiatt vállalkozások felé nem állíthatsz ki bizonylatot.]]></hibauzenet>
+</xmlszamlavalasz>

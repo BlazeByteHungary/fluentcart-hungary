@@ -1,0 +1,24 @@
+# Copyright (C) 2026 FluentCart Hungary
+# This file is distributed under the GPL-3.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentCart Hungary 0.1.0\n"
+"Report-Msgid-Bugs-To: https://example.invalid/fluentcart-hungary\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: manual\n"
+
+#: fluentcart-hungary.php
+msgid "FluentCart Hungary"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Core"
+msgstr ""

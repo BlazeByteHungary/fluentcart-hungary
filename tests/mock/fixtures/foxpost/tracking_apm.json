@@ -1,0 +1,20 @@
+{
+  "clFox": "CLFOX0000000001",
+  "parcelType": "NORMAL",
+  "sendType": "APM",
+  "traces": [
+    {
+      "statusDate": "2026-10-05T06:54:31.472Z",
+      "shortName": "Automataban",
+      "longName": "Csomagod megerkezett a valasztott automataba.",
+      "status": "OPERIN"
+    },
+    {
+      "statusDate": "2026-10-04T10:00:00.000Z",
+      "shortName": "Csomagod elkeszult",
+      "longName": "Csomagod letrejott a rendszerunkben.",
+      "status": "CREATE"
+    }
+  ],
+  "estimatedDelivery": "2026-10-06"
+}

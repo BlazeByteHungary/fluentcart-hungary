@@ -1,0 +1,15 @@
+{
+  "ClientReference": "FCH-992001",
+  "DeliveryCountryCode": "HU",
+  "ParcelStatusList": [
+    {
+      "DepotCity": "Budapest",
+      "DepotNumber": "1",
+      "StatusCode": "3",
+      "StatusDate": "2026-10-05T09:00:00",
+      "StatusDescription": "reached parcel center",
+      "StatusInfo": ""
+    }
+  ],
+  "Weight": 2.0
+}

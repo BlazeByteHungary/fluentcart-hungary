@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- packetTracking history, PACKETA_DOKS.md #packetTracking example (Z-BOX delivery point events). -->
+<response>
+  <status>ok</status>
+  <result>
+    <record>
+      <dateTime>2022-01-06T11:43:09</dateTime>
+      <statusCode>1</statusCode>
+      <codeText>received data</codeText>
+      <statusText>Internetový obchod předal informace o zásilce.</statusText>
+      <branchId>0</branchId>
+      <destinationBranchId>0</destinationBranchId>
+      <externalTrackingCode></externalTrackingCode>
+    </record>
+    <record>
+      <dateTime>2022-01-07T14:12:11</dateTime>
+      <statusCode>4</statusCode>
+      <codeText>departed</codeText>
+      <statusText>Zásilka byla odeslána na pobočku Z-BOX Praha 9.</statusText>
+      <branchId>13497</branchId>
+      <destinationBranchId>18579</destinationBranchId>
+      <externalTrackingCode></externalTrackingCode>
+    </record>
+    <record>
+      <dateTime>2022-01-10T10:43:00</dateTime>
+      <statusCode>5</statusCode>
+      <codeText>ready for pickup</codeText>
+      <statusText>Zásilka byla přijata na cílovém výdejním místě Z-BOX Praha 9.</statusText>
+      <branchId>18579</branchId>
+      <destinationBranchId>0</destinationBranchId>
+      <externalTrackingCode></externalTrackingCode>
+    </record>
+    <record>
+      <dateTime>2022-01-10T15:34:06</dateTime>
+      <statusCode>7</statusCode>
+      <codeText>delivered</codeText>
+      <statusText>Zásilka byla vydána.</statusText>
+      <branchId>18579</branchId>
+      <destinationBranchId>0</destinationBranchId>
+      <externalTrackingCode></externalTrackingCode>
+    </record>
+  </result>
+</response>

@@ -1,0 +1,19 @@
+{
+  "transactionId": "TXN-DPD-0001",
+  "shipmentResults": [
+    {
+      "labelFile": "data:application/pdf;base64,JVBERi0xLjQKJSBzeW50aGV0aWMgRFBEIGxhYmVsCiUlRU9GCg==",
+      "barcodeText": "12345678901234",
+      "shipment": {
+        "shipmentId": 555000111,
+        "reference1": "fch:990001:dpd:label_create:1",
+        "parcels": [
+          {
+            "parcelNumber": "12345678901234",
+            "parcelRank": 1
+          }
+        ]
+      }
+    }
+  ]
+}

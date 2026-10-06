@@ -1,0 +1,27 @@
+{
+  "PaymentId": "0123456789abcdef0123456789abcdef",
+  "PaymentRequestId": "fch-990001-1-test",
+  "Status": "InProgress",
+  "PaymentType": "Immediate",
+  "Total": 12345,
+  "Currency": "HUF",
+  "FundingSource": "BankCard",
+  "PaymentMethod": "BankCard",
+  "RecurrenceType": "None",
+  "TraceId": "trace-pending-0001",
+  "ValidUntil": "2026-10-05T18:00:00Z",
+  "ReservedUntil": null,
+  "DelayedCaptureUntil": null,
+  "Transactions": [
+    {
+      "TransactionId": "22222222222222222222222222222222",
+      "POSTransactionId": "fch-990001-1-test",
+      "TransactionType": "CardPayment",
+      "CardHolderName": "Test Payer",
+      "Total": 12345,
+      "Currency": "HUF",
+      "Status": "Started"
+    }
+  ],
+  "Errors": []
+}

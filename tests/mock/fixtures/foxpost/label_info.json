@@ -1,0 +1,20 @@
+{
+  "senderName": "Teszt Kft.",
+  "senderZip": "1034",
+  "senderCity": "Budapest",
+  "senderAddress": "Fő utca 1.",
+  "recipientName": "Teszt Aladar",
+  "recipientEmail": "teszt.aladar@example.hu",
+  "recipientPhone": "+36300000000",
+  "recipientZip": "1097",
+  "recipientCity": "Budapest",
+  "recipientAddress": "Robert Karoly krt. 12-14",
+  "apm": "35",
+  "cod": 5000,
+  "isFragile": false,
+  "barcode": "CLFOX0000000001",
+  "refCode": "FCH-992001",
+  "depoCode": "22",
+  "courierCode": "B29",
+  "sendType": "APM"
+}

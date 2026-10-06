@@ -1,0 +1,19 @@
+{
+  "clFox": "CLFOX0000000001",
+  "parcelType": "NORMAL",
+  "sendType": "HDRECEIVE",
+  "traces": [
+    {
+      "statusDate": "2026-10-06T09:10:00.000Z",
+      "shortName": "Atveve",
+      "longName": "Csomagod hazhozszallitassal kezbesitve lett.",
+      "status": "HDRECEIVE"
+    },
+    {
+      "statusDate": "2026-10-05T18:00:00.000Z",
+      "shortName": "Uton",
+      "longName": "Csomagod kiszállítás alatt van.",
+      "status": "HDCOURIER"
+    }
+  ]
+}

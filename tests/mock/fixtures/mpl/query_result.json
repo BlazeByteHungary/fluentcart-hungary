@@ -1,0 +1,12 @@
+[
+  {
+    "webshopId": "FCH-990003",
+    "customData1": "fch:990003:label_create:1",
+    "trackingNumber": "MPL1234567890",
+    "packageTrackingNumbers": [
+      "MPL1234567890"
+    ],
+    "status": "Felvétel",
+    "errors": []
+  }
+]
