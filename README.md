@@ -3,7 +3,10 @@
 Moduláris WordPress-plugin a FluentCart magyarországi e-kereskedelmi integrációihoz: online fizetés,
 magyar számlázók, futárszolgálatok és csomagpontválasztás — közös technikai alapon, egy pluginként.
 
-**Szerző:** UNBND · **Verzió:** 0.6.1 · **Állapot:** `READY_FOR_SANDBOX` (`LIVE_VERIFIED = 0`)
+**Szerző:** UNBND · **Legutóbbi publikus kiadás:** 0.6.1 · **Állapot:** `READY_FOR_SANDBOX` (`LIVE_VERIFIED = 0`)
+
+A fejlesztés jelenlegi, 2026-10-19-i állapotát és a következő feladatokat a
+[UPCOMING_TASKS.md](UPCOMING_TASKS.md) foglalja össze.
 
 *English summary: modular Hungarian payment (Barion, SimplePay), invoicing (Számlázz, Billingo),
 shipping (MPL, GLS, DPD, Packeta, Foxpost) and pickup-point integrations for FluentCart. Developed
@@ -83,6 +86,12 @@ készül.
   harness a `FCH_LAB` környezeti változóval állítható a saját labra; alapérték egy helyi lab-útvonal).
   A próbák hálózat és éles provider nélkül futnak.
 - **Fejlesztői követelmény:** PHP 8.1+ CLI a unit tesztekhez.
+
+## Fejlesztési állapot és következő feladatok
+
+A területenkénti aktuális státuszt, a „kész” jelentését és a következő lépéseket a
+[UPCOMING_TASKS.md](UPCOMING_TASKS.md) tartalmazza. A nyilvános repó utolsó kiadása 0.6.1; a
+fejlesztői állapot ennél előrébb tart, de éles provider-igazolás továbbra sincs.
 
 ## Ismert korlátok
 
