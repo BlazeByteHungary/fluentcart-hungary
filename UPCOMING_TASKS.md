@@ -28,8 +28,9 @@ A részletes, bizonyítékokkal ellátott belső mátrix nem része a nyilvános
 
 ## Következő lépések
 
-1. **Kiadási igazság:** a nyilvános repó utolsó kiadása 0.6.1; a fejlesztés 0.8.0 állapotban van.
-   A következő lépés a 0.8.0 release-jelölt, release-notes és verdict tisztázása.
+1. **Kiadási igazság:** a nyilvános repó utolsó kiadása 0.6.1; a fejlesztés 0.8.0 állapotban van, de a
+   0.8.0 forrás/artifact egyelőre nem része a nyilvános kiadásnak. A következő lépés a 0.8.0
+   release-jelölt, release-notes és verdict tisztázása.
 2. **Barion teszt E2E:** a teszt POS már konfigurálva van; egy valódi tesztfizetés + refund hiányzik.
 3. **GLS címke:** a pontlista/widget/teszthitelesítés kész; a saját teszt parcel címke-létrehozása,
    pickup-kérése és COD-módosítása van hátra.
